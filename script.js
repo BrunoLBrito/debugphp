@@ -11,7 +11,7 @@ form.onsubmit = e => {
 		body: data
 	}
 
-	fetch('send.php', options)
+	fetch('https://granpharmaceuticals.herokuapp.com/', options)
 		.then(res => res.json())
 		.then(result => {
 			let text = `
