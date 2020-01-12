@@ -30,3 +30,13 @@ button {
 	color: #fff;
 	cursor: pointer;
 }
+
+.demo {
+	margin-top: 10px;
+}
+
+span {
+	text-align: center;
+	display: block;
+	color: #f00;
+}
