@@ -8,8 +8,8 @@ form.onsubmit = e => {
 
 	let options = {
 		method: 'POST',
-		body: data,
-		mode: 'no-cors'
+		body: data
+		//mode: 'no-cors'
 	}
 
 	fetch('https://granpharmaceuticals.herokuapp.com/', options)
